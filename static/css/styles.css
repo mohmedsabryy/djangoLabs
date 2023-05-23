@@ -1,0 +1,39 @@
+body {
+            display: flex;
+            justify-content:center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            flex-shrink: 0;
+            justify-content: flex-end;
+           /* Align the links to the right */
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #111;
+        }
+
+        .footer {
+            background-color: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+            flex-shrink: 0;
+        }
